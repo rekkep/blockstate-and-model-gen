@@ -1,0 +1,42 @@
+Barrel
+Beacon
+Bee Nest
+Beehive
+Blast Furnace
+Cactus
+Cartography Table
+Carved Pumpkin
+Cauldron
+Composter
+Crafting Table
+Dirt Path
+Dispenser
+Dropper
+Farmland
+Fletching Table
+Furnace
+Honey Block
+Infested Chiseled Stone Bricks
+Infested Cobblestone
+Infested Cracked Stone Bricks
+Infested Mossy Stone Bricks
+Infested Stone
+Infested Stone Bricks
+Jack o'Lantern
+Jukebox
+Lodestone
+Loom
+Muddy Mangrove Roots
+Note Block
+Observer
+Piston
+Respawn Anchor
+Sculk Catalyst
+Sculk Shrieker
+Slime Block
+Smithing Table
+Smoker
+Sponge
+Sticky Piston
+TNT
+Wet Sponge

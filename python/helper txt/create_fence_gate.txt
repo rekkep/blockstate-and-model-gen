@@ -1,0 +1,127 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_FENCE_GATE = createFenceGate({self.name.upper()}, {self.tab})
+
+
+assets/models/block:
+    -> _fence_gate.json:
+        {
+            "parent": "minecraft:block/template_fence_gate",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _fence_gate_open.json:
+        {
+            "parent": "minecraft:block/template_fence_gate_open",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _fence_gate_wall.json:
+        {
+            "parent": "minecraft:block/template_fence_gate_wall",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _fence_gate_wall_open.json:
+        {
+            "parent": "minecraft:block/template_fence_gate_wall_open",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+
+assets/models/item:
+    -> _fence_gate.json:
+        {
+            "parent": f" {self.mod_id}:block/{self.name}_fence_gate"
+        }
+
+assets/blockstates:
+    -> _fence_gate:
+        {
+            "variants": {
+                "facing=east,in_wall=false,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate",
+                "uvlock": True,
+                "y": 270
+                },
+                "facing=east,in_wall=false,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_open",
+                "uvlock": True,
+                "y": 270
+                },
+                "facing=east,in_wall=true,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall",
+                "uvlock": True,
+                "y": 270
+                },
+                "facing=east,in_wall=true,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall_open",
+                "uvlock": True,
+                "y": 270
+                },
+                "facing=north,in_wall=false,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate",
+                "uvlock": True,
+                "y": 180
+                },
+                "facing=north,in_wall=false,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_open",
+                "uvlock": True,
+                "y": 180
+                },
+                "facing=north,in_wall=true,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall",
+                "uvlock": True,
+                "y": 180
+                },
+                "facing=north,in_wall=true,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall_open",
+                "uvlock": True,
+                "y": 180
+                },
+                "facing=south,in_wall=false,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate",
+                "uvlock": True
+                },
+                "facing=south,in_wall=false,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_open",
+                "uvlock": True
+                },
+                "facing=south,in_wall=true,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall",
+                "uvlock": True
+                },
+                "facing=south,in_wall=true,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall_open",
+                "uvlock": True
+                },
+                "facing=west,in_wall=false,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate",
+                "uvlock": True,
+                "y": 90
+                },
+                "facing=west,in_wall=false,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_open",
+                "uvlock": True,
+                "y": 90
+                },
+                "facing=west,in_wall=true,open=false": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall",
+                "uvlock": True,
+                "y": 90
+                },
+                "facing=west,in_wall=true,open=true": {
+                "model": f" {self.mod_id}:block/{self.name}_fence_gate_wall_open",
+                "uvlock": True,
+                "y": 90
+                }
+            }
+        }
+

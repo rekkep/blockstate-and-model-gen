@@ -1,0 +1,43 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_PRESSURE_PLATE = createAllPressurePlate({self.name.upper()}, {self.tab}) 
+    public static final Block {self.name.upper().replace('_planks')}_PRESSURE_PLATE = createMOBPressurePlate({self.name.upper()}, {self.tab}) 
+
+
+
+assets/models/block:
+    -> _pressure_plate.json:
+        {
+            "parent": "minecraft:block/pressure_plate_up",
+            "textures": {
+                "texture": f"{self.texture__mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _pressure_plate_down.json:
+        {
+            "parent": "minecraft:block/pressure_plate_down",
+            "textures": {
+                "texture": f"{self.texture__mod_id}:block/{self.name}"
+            }
+        }
+
+
+assets/models/item:
+    -> _pressure_plate.json:
+        {
+            "parent": f"{self.mod_id}:block/{self.name}_pressure_plate"
+        }
+
+
+assets/blockstates:
+    -> _pressure_plate.json:
+        {
+            "variants": {
+                "powered=false": {
+                "model": f"{self.mod_id}:block/{self.name}_pressure_plate"
+                },
+                "powered=true": {
+                "model": f"{self.mod_id}:block/{self.name}_pressure_plate_down"
+                }
+            }
+        }

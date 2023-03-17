@@ -1,0 +1,5477 @@
+{
+    "acacia_leaves": {
+        "textures_name": {
+            "texture": "acacia_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "acacia_log": {
+        "textures_name": {
+            "texture_top": "acacia_log_top",
+            "texture": "acacia_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "acacia_wood": {
+        "textures_name": {
+            "texture": "acacia_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "azalea_leaves": {
+        "textures_name": {
+            "texture": "azalea_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "basalt": {
+        "textures_name": {
+            "texture_top": "basalt_top",
+            "texture": "basalt_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "birch_leaves": {
+        "textures_name": {
+            "texture": "birch_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "birch_log": {
+        "textures_name": {
+            "texture": "birch_log",
+            "texture_top": "birch_log_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "birch_wood": {
+        "textures_name": {
+            "texture": "birch_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "black_concrete": {
+        "textures_name": {
+            "texture": "black_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "black_concrete_powder": {
+        "textures_name": {
+            "texture": "black_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "black_glazed_terracotta": {
+        "textures_name": {
+            "texture": "black_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "black_stained_glass": {
+        "textures_name": {
+            "texture": "black_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "black_terracotta": {
+        "textures_name": {
+            "texture": "black_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "black_wool": {
+        "textures_name": {
+            "texture": "black_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_amethyst": {
+        "textures_name": {
+            "texture": "amethyst_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_coal": {
+        "textures_name": {
+            "texture": "coal_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_copper": {
+        "textures_name": {
+            "texture": "copper_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_gold": {
+        "textures_name": {
+            "texture": "gold_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_iron": {
+        "textures_name": {
+            "texture": "iron_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_lapis_lazuli": {
+        "textures_name": {
+            "texture": "lapis_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_raw_copper": {
+        "textures_name": {
+            "texture": "raw_copper_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_raw_gold": {
+        "textures_name": {
+            "texture": "raw_gold_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_raw_iron": {
+        "textures_name": {
+            "texture": "raw_iron_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "block_of_redstone": {
+        "textures_name": {
+            "texture": "redstone_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "blue_concrete": {
+        "textures_name": {
+            "texture": "blue_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "blue_concrete_powder": {
+        "textures_name": {
+            "texture": "blue_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "blue_glazed_terracotta": {
+        "textures_name": {
+            "texture": "blue_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "blue_ice": {
+        "textures_name": {
+            "texture": "blue_ice"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "blue_stained_glass": {
+        "textures_name": {
+            "texture": "blue_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "blue_terracotta": {
+        "textures_name": {
+            "texture": "blue_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "blue_wool": {
+        "textures_name": {
+            "texture": "blue_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brain_coral_block": {
+        "textures_name": {
+            "texture": "brain_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brown_concrete": {
+        "textures_name": {
+            "texture": "brown_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brown_concrete_powder": {
+        "textures_name": {
+            "texture": "brown_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brown_glazed_terracotta": {
+        "textures_name": {
+            "texture": "brown_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brown_mushroom_block": {
+        "textures_name": {
+            "texture": "brown_mushroom_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brown_stained_glass": {
+        "textures_name": {
+            "texture": "brown_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brown_terracotta": {
+        "textures_name": {
+            "texture": "brown_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "brown_wool": {
+        "textures_name": {
+            "texture": "brown_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "bubble_coral_block": {
+        "textures_name": {
+            "texture": "bubble_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "chiseled_deepslate": {
+        "textures_name": {
+            "texture": "chiseled_deepslate"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "chiseled_polished_blackstone": {
+        "textures_name": {
+            "texture": "chiseled_polished_blackstone"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "chiseled_quartz_block": {
+        "textures_name": {
+            "texture": "chiseled_quartz_block",
+            "texture_top": "chiseled_quartz_block_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "chiseled_sandstone": {
+        "textures_name": {
+            "texture": "chiseled_sandstone"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "chiseled_stone_bricks": {
+        "textures_name": {
+            "texture": "chiseled_stone_bricks"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "chiseled_red_sandstone": {
+        "textures_name": {
+            "texture": "chiseled_red_sandstone"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "clay": {
+        "textures_name": {
+            "texture": "clay"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "coal_ore": {
+        "textures_name": {
+            "texture": "coal_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "coarse_dirt": {
+        "textures_name": {
+            "texture": "coarse_dirt"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "copper_ore": {
+        "textures_name": {
+            "texture": "copper_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cracked_deepslate_bricks": {
+        "textures_name": {
+            "texture": "cracked_deepslate_bricks"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cracked_deepslate_tiles": {
+        "textures_name": {
+            "texture": "cracked_deepslate_tiles"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cracked_polished_blackstone_bricks": {
+        "textures_name": {
+            "texture": "cracked_polished_blackstone_bricks"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cracked_stone_bricks": {
+        "textures_name": {
+            "texture": "cracked_stone_bricks"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "crimson_hyphae": {
+        "textures_name": {
+            "texture": "crimson_stem",
+            "mcmeta": "crimson_stem.mcmeta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "crimson_nylium": {
+        "textures_name": {
+            "texture": "crimson_nylium",
+            "texture_side": "crimson_nylium_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "crimson_stem": {
+        "textures_name": {
+            "mcmeta": "crimson_stem.mcmeta",
+            "texture_top": "crimson_stem_top",
+            "texture": "crimson_stem"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "crying_obsidian": {
+        "textures_name": {
+            "texture": "crying_obsidian"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cyan_concrete": {
+        "textures_name": {
+            "texture": "cyan_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cyan_concrete_powder": {
+        "textures_name": {
+            "texture": "cyan_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cyan_glazed_terracotta": {
+        "textures_name": {
+            "texture": "cyan_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cyan_stained_glass": {
+        "textures_name": {
+            "texture": "cyan_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cyan_terracotta": {
+        "textures_name": {
+            "texture": "cyan_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "cyan_wool": {
+        "textures_name": {
+            "texture": "cyan_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dark_oak_leaves": {
+        "textures_name": {
+            "texture": "dark_oak_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dark_oak_log": {
+        "textures_name": {
+            "texture_top": "dark_oak_log_top",
+            "texture": "dark_oak_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dark_oak_wood": {
+        "textures_name": {
+            "texture": "dark_oak_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dead_brain_coral_block": {
+        "textures_name": {
+            "texture": "dead_brain_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dead_bubble_coral_block": {
+        "textures_name": {
+            "texture": "dead_bubble_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dead_fire_coral_block": {
+        "textures_name": {
+            "texture": "dead_fire_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dead_horn_coral_block": {
+        "textures_name": {
+            "texture": "dead_horn_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dead_tube_coral_block": {
+        "textures_name": {
+            "texture": "dead_tube_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_coal_ore": {
+        "textures_name": {
+            "texture": "deepslate_coal_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_copper_ore": {
+        "textures_name": {
+            "texture": "deepslate_copper_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_diamond_ore": {
+        "textures_name": {
+            "texture": "deepslate_diamond_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_emerald_ore": {
+        "textures_name": {
+            "texture": "deepslate_emerald_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_gold_ore": {
+        "textures_name": {
+            "texture": "deepslate_gold_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_iron_ore": {
+        "textures_name": {
+            "texture": "deepslate_iron_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_lapis_lazuli_ore": {
+        "textures_name": {
+            "texture": "deepslate_lapis_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_redstone_ore": {
+        "textures_name": {
+            "texture": "deepslate_redstone_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "deepslate_tiles": {
+        "textures_name": {
+            "texture": "deepslate_tiles"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "diamond_block": {
+        "textures_name": {
+            "texture": "diamond_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "diamond_ore": {
+        "textures_name": {
+            "texture": "diamond_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dirt": {
+        "textures_name": {
+            "texture": "dirt"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dried_kelp_block": {
+        "textures_name": {
+            "texture_bottom": "dried_kelp_bottom",
+            "texture_side": "dried_kelp_side",
+            "texture_top": "dried_kelp_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "dripstone_block": {
+        "textures_name": {
+            "texture": "dripstone_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "emerald_block": {
+        "textures_name": {
+            "texture": "emerald_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "emerald_ore": {
+        "textures_name": {
+            "texture": "emerald_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "end_stone": {
+        "textures_name": {
+            "texture": "end_stone"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "exposed_copper": {
+        "textures_name": {
+            "texture": "exposed_copper"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "fire_coral_block": {
+        "textures_name": {
+            "texture": "fire_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "flowering_azalea_leaves": {
+        "textures_name": {
+            "texture": "flowering_azalea_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gilded_blackstone": {
+        "textures_name": {
+            "texture": "gilded_blackstone"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "glass": {
+        "textures_name": {
+            "texture": "glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "glowstone": {
+        "textures_name": {
+            "texture": "glowstone"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gold_ore": {
+        "textures_name": {
+            "texture": "gold_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "grass_block": {
+        "textures_name": {
+            "texture": "grass_block_snow",
+            "texture_overlay": "grass_block_side_overlay",
+            "texture_side": "grass_block_side",
+            "texture_top": "grass_block_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gravel": {
+        "textures_name": {
+            "texture": "gravel"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gray_concrete": {
+        "textures_name": {
+            "texture": "gray_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gray_concrete_powder": {
+        "textures_name": {
+            "texture": "gray_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gray_glazed_terracotta": {
+        "textures_name": {
+            "texture": "gray_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gray_stained_glass": {
+        "textures_name": {
+            "texture": "gray_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gray_terracotta": {
+        "textures_name": {
+            "texture": "gray_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "gray_wool": {
+        "textures_name": {
+            "texture": "gray_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "green_concrete": {
+        "textures_name": {
+            "texture": "green_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "green_concrete_powder": {
+        "textures_name": {
+            "texture": "green_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "green_glazed_terracotta": {
+        "textures_name": {
+            "texture": "green_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "green_stained_glass": {
+        "textures_name": {
+            "texture": "green_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "green_terracotta": {
+        "textures_name": {
+            "texture": "green_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "green_wool": {
+        "textures_name": {
+            "texture": "green_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "hay_bele": {
+        "textures_name": {
+            "texture_side": "hay_block_side",
+            "texture_top": "hay_block_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "honeycomb_block": {
+        "textures_name": {
+            "texture": "honeycomb_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "horn_coral_block": {
+        "textures_name": {
+            "texture": "horn_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "ice": {
+        "textures_name": {
+            "texture": "ice"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "infested_deepslate": {
+        "textures_name": {
+            "texture": "deepslate",
+            "texture_top": "deepslate_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "iron_ore": {
+        "textures_name": {
+            "texture": "iron_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "jungle_leaves": {
+        "textures_name": {
+            "texture": "jungle_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "jungle_log": {
+        "textures_name": {
+            "texture": "jungle_log",
+            "texture_top": "jungle_log_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "jungle_wood": {
+        "textures_name": {
+            "texture": "jungle_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "lapis_lazuli_ore": {
+        "textures_name": {
+            "texture": "lapis_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_blue_concrete": {
+        "textures_name": {
+            "texture": "light_blue_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_blue_concrete_powder": {
+        "textures_name": {
+            "texture": "light_blue_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_blue_glazed_terracotta": {
+        "textures_name": {
+            "texture": "light_blue_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_blue_stained_glass": {
+        "textures_name": {
+            "texture": "light_blue_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_blue_terracotta": {
+        "textures_name": {
+            "texture": "light_blue_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_blue_wool": {
+        "textures_name": {
+            "texture": "light_blue_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_gray_concrete": {
+        "textures_name": {
+            "texture": "light_gray_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_gray_concrete_powder": {
+        "textures_name": {
+            "texture": "light_gray_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_gray_glazed_terracotta": {
+        "textures_name": {
+            "texture": "light_gray_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_gray_stained_glass": {
+        "textures_name": {
+            "texture": "light_gray_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_gray_terracotta": {
+        "textures_name": {
+            "texture": "light_gray_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "light_gray_wool": {
+        "textures_name": {
+            "texture": "light_gray_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "lime_concrete": {
+        "textures_name": {
+            "texture": "lime_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "lime_concrete_powder": {
+        "textures_name": {
+            "texture": "lime_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "lime_glazed_terracotta": {
+        "textures_name": {
+            "texture": "lime_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "lime_stained_glass": {
+        "textures_name": {
+            "texture": "lime_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "lime_terracotta": {
+        "textures_name": {
+            "texture": "lime_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "lime_wool": {
+        "textures_name": {
+            "texture": "lime_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "magenta_concrete": {
+        "textures_name": {
+            "texture": "magenta_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "magenta_concrete_powder": {
+        "textures_name": {
+            "texture": "magenta_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "magenta_glazed_terracotta": {
+        "textures_name": {
+            "texture": "magenta_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "magenta_stained_glass": {
+        "textures_name": {
+            "texture": "magenta_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "magenta_terracotta": {
+        "textures_name": {
+            "texture": "magenta_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "magenta_wool": {
+        "textures_name": {
+            "texture": "magenta_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "magma_block": {
+        "textures_name": {
+            "texture": "magma",
+            "mcmeta": "magma.mcmeta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "mangrove_leaves": {
+        "textures_name": {
+            "texture": "mangrove_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "mangrove_log": {
+        "textures_name": {
+            "texture_top": "mangrove_log_top",
+            "texture": "mangrove_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "mangrove_roots": {
+        "textures_name": {
+            "texture_top": "mangrove_roots_top",
+            "texture_side": "mangrove_roots_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "mangrove_wood": {
+        "textures_name": {
+            "texture": "mangrove_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "melon": {
+        "textures_name": {
+            "texture_top": "melon_top",
+            "texture_side": "melon_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "moss_block": {
+        "textures_name": {
+            "texture": "moss_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "mud": {
+        "textures_name": {
+            "texture": "mud"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "mushroom_stem": {
+        "textures_name": {
+            "texture": "mushroom_stem"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "mycelium": {
+        "textures_name": {
+            "texture_side": "mycelium_side",
+            "texture_top": "mycelium_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "nether_quartz_ore": {
+        "textures_name": {
+            "texture": "nether_quartz_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "nether_wart_block": {
+        "textures_name": {
+            "texture": "nether_wart_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "netherrack": {
+        "textures_name": {
+            "texture": "netherrack"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "oak_leaves": {
+        "textures_name": {
+            "texture": "oak_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "oak_log": {
+        "textures_name": {
+            "texture": "oak_log",
+            "texture_top": "oak_log_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "oak_wood": {
+        "textures_name": {
+            "texture": "oak_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "obsidian": {
+        "textures_name": {
+            "texture": "obsidian"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "ochre_froglight": {
+        "textures_name": {
+            "texture_top": "ochre_froglight_top",
+            "texture_side": "ochre_froglight_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "orange_concrete": {
+        "textures_name": {
+            "texture": "orange_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "orange_concrete_powder": {
+        "textures_name": {
+            "texture": "orange_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "orange_glazed_terracotta": {
+        "textures_name": {
+            "texture": "orange_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "orange_stained_glass": {
+        "textures_name": {
+            "texture": "orange_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "orange_terracotta": {
+        "textures_name": {
+            "texture": "orange_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "orange_wool": {
+        "textures_name": {
+            "texture": "orange_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "oxidized_copper": {
+        "textures_name": {
+            "texture": "oxidized_copper"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "packed_ice": {
+        "textures_name": {
+            "texture": "packed_ice"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "packed_mud": {
+        "textures_name": {
+            "texture": "packed_mud"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pearlescent_froglight": {
+        "textures_name": {
+            "texture_top": "pearlescent_froglight_top",
+            "texture_side": "pearlescent_froglight_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pink_concrete": {
+        "textures_name": {
+            "texture": "pink_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pink_concrete_powder": {
+        "textures_name": {
+            "texture": "pink_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pink_glazed_terracotta": {
+        "textures_name": {
+            "texture": "pink_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pink_stained_glass": {
+        "textures_name": {
+            "texture": "pink_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pink_terracotta": {
+        "textures_name": {
+            "texture": "pink_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pink_wool": {
+        "textures_name": {
+            "texture": "pink_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "podzol": {
+        "textures_name": {
+            "texture_top": "podzol_top",
+            "texture_side": "podzol_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "polished_basalt": {
+        "textures_name": {
+            "texture_side": "polished_basalt_side",
+            "texture_top": "polished_basalt_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "pumpkin": {
+        "textures_name": {
+            "texture_top": "pumpkin_top",
+            "texture_side": "pumpkin_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "purple_concrete": {
+        "textures_name": {
+            "texture": "purple_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "purple_concrete_powder": {
+        "textures_name": {
+            "texture": "purple_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "purple_glazed_terracotta": {
+        "textures_name": {
+            "texture": "purple_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "purple_stained_glass": {
+        "textures_name": {
+            "texture": "purple_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "purple_terracotta": {
+        "textures_name": {
+            "texture": "purple_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "purple_wool": {
+        "textures_name": {
+            "texture": "purple_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "purpur_pillar": {
+        "textures_name": {
+            "texture_top": "purpur_pillar_top",
+            "texture": "purpur_pillar"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "quartz_pillar": {
+        "textures_name": {
+            "texture_top": "quartz_pillar_top",
+            "texture": "quartz_pillar"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_concrete": {
+        "textures_name": {
+            "texture": "red_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_concrete_powder": {
+        "textures_name": {
+            "texture": "red_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_glazed_terracotta": {
+        "textures_name": {
+            "texture": "red_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_mushroom_block": {
+        "textures_name": {
+            "texture": "red_mushroom_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_sand": {
+        "textures_name": {
+            "texture": "red_sand"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_stained_glass": {
+        "textures_name": {
+            "texture": "red_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_terracotta": {
+        "textures_name": {
+            "texture": "red_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "red_wool": {
+        "textures_name": {
+            "texture": "red_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "redstone_lamp": {
+        "textures_name": {
+            "texture_on": "redstone_lamp_on",
+            "texture": "redstone_lamp"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "redstone_ore": {
+        "textures_name": {
+            "texture": "redstone_ore"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "rooted_dirt": {
+        "textures_name": {
+            "texture": "rooted_dirt"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "sand": {
+        "textures_name": {
+            "texture": "sand"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "sculk": {
+        "textures_name": {
+            "mcmeta": "sculk.mcmeta",
+            "texture": "sculk"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "sea_lantern": {
+        "textures_name": {
+            "mcmeta": "sea_lantern.mcmeta",
+            "texture": "sea_lantern"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "shroomlight": {
+        "textures_name": {
+            "texture": "shroomlight"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "smooth_basalt": {
+        "textures_name": {
+            "texture": "smooth_basalt"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "snow_block": {
+        "textures_name": {
+            "texture": "snow"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "soul_sand": {
+        "textures_name": {
+            "texture": "soul_sand"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "soul_soil": {
+        "textures_name": {
+            "texture": "soul_soil"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "spruce_leaves": {
+        "textures_name": {
+            "texture": "spruce_leaves"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "spruce_log": {
+        "textures_name": {
+            "texture": "spruce_log",
+            "texture_top": "spruce_log_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "spruce_wood": {
+        "textures_name": {
+            "texture": "spruce_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_acacia_log": {
+        "textures_name": {
+            "texture_top": "stripped_acacia_log_top",
+            "texture": "stripped_acacia_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_acacia_wood": {
+        "textures_name": {
+            "texture": "stripped_acacia_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_birch_log": {
+        "textures_name": {
+            "texture": "stripped_birch_log",
+            "texture_top": "stripped_birch_log_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_birch_wood": {
+        "textures_name": {
+            "texture": "stripped_birch_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_crimson_hyphae": {
+        "textures_name": {
+            "texture": "stripped_crimson_stem"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_crimson_stem": {
+        "textures_name": {
+            "texture": "stripped_crimson_stem",
+            "texture_top": "stripped_crimson_stem_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_dark_oak_log": {
+        "textures_name": {
+            "texture_top": "stripped_dark_oak_log_top",
+            "texture": "stripped_dark_oak_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_dark_oak_wood": {
+        "textures_name": {
+            "texture": "stripped_dark_oak_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_jungle_log": {
+        "textures_name": {
+            "texture_top": "stripped_jungle_log_top",
+            "texture": "stripped_jungle_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_jungle_wood": {
+        "textures_name": {
+            "texture": "stripped_jungle_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_mangrove_log": {
+        "textures_name": {
+            "texture": "stripped_mangrove_log",
+            "texture_top": "stripped_mangrove_log_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_mangrove_wood": {
+        "textures_name": {
+            "texture": "stripped_mangrove_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_oak_log": {
+        "textures_name": {
+            "texture_top": "stripped_oak_log_top",
+            "texture": "stripped_oak_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_oak_wood": {
+        "textures_name": {
+            "texture": "stripped_oak_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_spruce_log": {
+        "textures_name": {
+            "texture": "stripped_spruce_log",
+            "texture_top": "stripped_spruce_log_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_spruce_wood": {
+        "textures_name": {
+            "texture": "stripped_spruce_log"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_warped_hyphae": {
+        "textures_name": {
+            "texture": "stripped_warped_stem"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "stripped_warped_stem": {
+        "textures_name": {
+            "texture": "stripped_warped_stem",
+            "texture_top": "stripped_warped_stem_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "target": {
+        "textures_name": {
+            "texture_side": "target_side",
+            "texture_top": "target_top"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "terracotta": {
+        "textures_name": {
+            "texture": "terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "tinted_glass": {
+        "textures_name": {
+            "texture": "tinted_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "tube_coral_block": {
+        "textures_name": {
+            "texture": "tube_coral_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "verdant_froglight": {
+        "textures_name": {
+            "texture_top": "verdant_froglight_top",
+            "texture_side": "verdant_froglight_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "warped_hyphae": {
+        "textures_name": {
+            "texture": "warped_stem",
+            "mcmeta": "warped_stem.mcmeta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "warped_nylium": {
+        "textures_name": {
+            "texture": "warped_nylium",
+            "texture_side": "warped_nylium_side"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "warped_stem": {
+        "textures_name": {
+            "texture_top": "warped_stem_top",
+            "texture": "warped_stem",
+            "mcmeta": "warped_stem.mcmeta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "waxed_block_of_copper": {
+        "textures_name": {
+            "texture": "copper_block"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "waxed_exposed_copper": {
+        "textures_name": {
+            "texture": "exposed_copper"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "waxed_oxidized_copper": {
+        "textures_name": {
+            "texture": "oxidized_copper"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "waxed_weathered_copper": {
+        "textures_name": {
+            "texture": "weathered_copper"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "weathered_copper": {
+        "textures_name": {
+            "texture": "weathered_copper"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "white_concrete": {
+        "textures_name": {
+            "texture": "white_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "white_concrete_powder": {
+        "textures_name": {
+            "texture": "white_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "white_glazed_terracotta": {
+        "textures_name": {
+            "texture": "white_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "white_stained_glass": {
+        "textures_name": {
+            "texture": "white_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "white_terracotta": {
+        "textures_name": {
+            "texture": "white_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "white_wool": {
+        "textures_name": {
+            "texture": "white_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "yellow_concrete": {
+        "textures_name": {
+            "texture": "yellow_concrete"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "yellow_concrete_powder": {
+        "textures_name": {
+            "texture": "yellow_concrete_powder"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "yellow_glazed_terracotta": {
+        "textures_name": {
+            "texture": "yellow_glazed_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "yellow_stained_glass": {
+        "textures_name": {
+            "texture": "yellow_stained_glass"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "yellow_terracotta": {
+        "textures_name": {
+            "texture": "yellow_terracotta"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "yellow_wool": {
+        "textures_name": {
+            "texture": "yellow_wool"
+        },
+        "block_types": [
+            "fence",
+            "stairs",
+            "wall",
+            "door",
+            "trapdoor",
+            "button",
+            "fence_gate",
+            "pressure_plate",
+            "sign",
+            "slab"
+        ]
+    },
+    "andesite": {
+        "textures_name": {
+            "texture": "andesite"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "blackstone": {
+        "textures_name": {
+            "texture_top": "blackstone_top",
+            "texture": "blackstone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "bricks": {
+        "textures_name": {
+            "texture": "bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "cobbled_deepslate": {
+        "textures_name": {
+            "texture": "cobbled_deepslate"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "cobblestone": {
+        "textures_name": {
+            "texture": "cobblestone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "deepslate_bricks": {
+        "textures_name": {
+            "texture": "deepslate_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "diorite": {
+        "textures_name": {
+            "texture": "diorite"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "end_stone_brick": {
+        "textures_name": {
+            "texture": "end_stone_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "granite": {
+        "textures_name": {
+            "texture": "granite"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "mossy_cobblestone": {
+        "textures_name": {
+            "texture": "mossy_cobblestone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "mossy_stone_bricks": {
+        "textures_name": {
+            "texture": "mossy_stone_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "mud_bricks": {
+        "textures_name": {
+            "texture": "mud_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "polished_blackstone": {
+        "textures_name": {
+            "texture": "polished_blackstone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "polished_blackstone_bricks": {
+        "textures_name": {
+            "texture": "polished_blackstone_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "polished_deepslate": {
+        "textures_name": {
+            "texture": "polished_deepslate"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "prismarine": {
+        "textures_name": {
+            "texture": "prismarine",
+            "mcmeta": "prismarine.mcmeta"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "red_nether_bricks": {
+        "textures_name": {
+            "texture": "red_nether_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "red_sandstone": {
+        "textures_name": {
+            "texture_top": "red_sandstone_top",
+            "texture_bottom": "red_sandstone_bottom",
+            "texture": "red_sandstone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "sandstone": {
+        "textures_name": {
+            "texture": "sandstone",
+            "texture_bottom": "sandstone_bottom",
+            "texture_top": "sandstone_top"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "stone_bricks": {
+        "textures_name": {
+            "texture": "stone_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "block_of_quartz": {
+        "textures_name": {
+            "name": "quartz_block",
+            "texture_bottom": "quartz_block_bottom",
+            "texture_side": "quartz_block_side",
+            "texture_top": "quartz_block_top"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "cut_copper": {
+        "textures_name": {
+            "texture": "cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "dark_prismarine": {
+        "textures_name": {
+            "texture": "dark_prismarine"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "exposed_cut_copper": {
+        "textures_name": {
+            "texture": "exposed_cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "oxidized_cut_copper": {
+        "textures_name": {
+            "texture": "oxidized_cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "polished_andesite": {
+        "textures_name": {
+            "texture": "polished_andesite"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "polished_diorite": {
+        "textures_name": {
+            "texture": "polished_diorite"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "polished_granite": {
+        "textures_name": {
+            "texture": "polished_granite"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "prismarine_bricks": {
+        "textures_name": {
+            "texture": "prismarine_bricks"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "purpur_block": {
+        "textures_name": {
+            "texture": "purpur_block"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "smooth_quartz_block": {
+        "textures_name": {
+            "name": "smooth_quartz",
+            "texture": "quartz_block_bottom"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "smooth_red_sandstone": {
+        "textures_name": {
+            "texture": "red_sandstone_bottom"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "smooth_sandstone": {
+        "textures_name": {
+            "texture": "sandstone_bottom"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "smooth_stone": {
+        "textures_name": {
+            "texture": "smooth_stone",
+            "texture_side": "smooth_stone_slab_side"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "stone": {
+        "textures_name": {
+            "texture": "stone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "waxed_cut_copper": {
+        "textures_name": {
+            "texture": "cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "waxed_exposed_cut_copper": {
+        "textures_name": {
+            "texture": "exposed_cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "waxed_oxidized_cut_copper": {
+        "textures_name": {
+            "texture": "oxidized_cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "waxed_weathered_cut_copper": {
+        "textures_name": {
+            "texture": "weathered_cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "weathered_cut_copper": {
+        "textures_name": {
+            "texture": "weathered_cut_copper"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "wall"
+        ]
+    },
+    "cut_red_sandstone": {
+        "textures_name": {
+            "texture": "cut_red_sandstone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "stairs",
+            "wall"
+        ]
+    },
+    "cut_sandstone": {
+        "textures_name": {
+            "texture": "cut_sandstone"
+        },
+        "block_types": [
+            "fence",
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate",
+            "stairs",
+            "wall"
+        ]
+    },
+    "nether_bricks": {
+        "textures_name": {
+            "texture": "nether_bricks"
+        },
+        "block_types": [
+            "door",
+            "trapdoor",
+            "button",
+            "pressure_plate",
+            "sign",
+            "fence_gate"
+        ]
+    },
+    "acacia_planks": {
+        "textures_name": {
+            "texture": "acacia_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "birch_planks": {
+        "textures_name": {
+            "texture": "birch_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "crimson_planks": {
+        "textures_name": {
+            "texture": "crimson_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "dark_oak_planks": {
+        "textures_name": {
+            "texture": "dark_oak_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "jungle_planks": {
+        "textures_name": {
+            "texture": "jungle_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "mangrove_planks": {
+        "textures_name": {
+            "texture": "mangrove_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "oak_planks": {
+        "textures_name": {
+            "texture": "oak_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "spruce_planks": {
+        "textures_name": {
+            "texture": "spruce_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "warped_planks": {
+        "textures_name": {
+            "texture": "warped_planks"
+        },
+        "block_types": [
+            "wall"
+        ]
+    },
+    "barrel": {
+        "textures_name": {
+            "texture_top_open": "barrel_top_open",
+            "texture_side": "barrel_side",
+            "texture_bottom": "barrel_bottom",
+            "texture_top": "barrel_top"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "beacon": {
+        "textures_name": {
+            "texture": "beacon"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "bee_nest": {
+        "textures_name": {
+            "texture_top": "bee_nest_top",
+            "texture_front": "bee_nest_front",
+            "texture_side": "bee_nest_side",
+            "texture_bottom": "bee_nest_bottom",
+            "texture_front_honey": "bee_nest_front_honey"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "beehive": {
+        "textures_name": {
+            "texture_front_honey": "beehive_front_honey",
+            "texture_side": "beehive_side",
+            "texture_front": "beehive_front",
+            "texture_end": "beehive_end"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "blast_furnace": {
+        "textures_name": {
+            "texture_front": "blast_furnace_front",
+            "texture_side": "blast_furnace_side",
+            "mcmeta": "blast_furnace_front_on.mcmeta",
+            "texture_front_on": "blast_furnace_front_on",
+            "texture_top": "blast_furnace_top"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "cactus": {
+        "textures_name": {
+            "texture_side": "cactus_side",
+            "texture_top": "cactus_top",
+            "texture_bottom": "cactus_bottom"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "cartography_table": {
+        "textures_name": {
+            "texture_side1": "cartography_table_side1",
+            "texture_side33": "cartography_table_side3",
+            "texture_2": "cartography_table_side2",
+            "texture_top": "cartography_table_top"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "carved_pumpkin": {
+        "textures_name": {
+            "texture": "carved_pumpkin"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "cauldron": {
+        "textures_name": {
+            "texture_bottom": "cauldron_bottom",
+            "texture_inner": "cauldron_inner",
+            "texture_side": "cauldron_side",
+            "texture_top": "cauldron_top"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "composter": {
+        "textures_name": {
+            "texture_bottom": "composter_bottom",
+            "texture_ready": "composter_ready",
+            "texture_side": "composter_side",
+            "texture": "composter_compost",
+            "texture_top": "composter_top"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "crafting_table": {
+        "textures_name": {
+            "texture_top": "crafting_table_top",
+            "texture_front": "crafting_table_front",
+            "texture_side": "crafting_table_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "dirt_path": {
+        "textures_name": {
+            "texture_top": "dirt_path_top",
+            "texture_side": "dirt_path_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "dispenser": {
+        "textures_name": {
+            "texture_front_vertical": "dispenser_front_vertical",
+            "texture_front": "dispenser_front"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "dropper": {
+        "textures_name": {
+            "texture_vertical": "dropper_front_vertical",
+            "texture_front": "dropper_front"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "farmland": {
+        "textures_name": {
+            "texture": "farmland",
+            "texture_moist": "farmland_moist"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "fletching_table": {
+        "textures_name": {
+            "texture_top": "fletching_table_top",
+            "texture_side": "fletching_table_side",
+            "texture_front": "fletching_table_front"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "furnace": {
+        "textures_name": {
+            "texture_front_on": "furnace_front_on",
+            "texture_side": "furnace_side",
+            "texture_top": "furnace_top",
+            "texture_front": "furnace_front"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "honey_block": {
+        "textures_name": {
+            "texture_bottom": "honey_block_bottom",
+            "texture_top": "honey_block_top",
+            "texture_side": "honey_block_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "infested_chiseled_stone_bricks": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "infested_cobblestone": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "infested_cracked_stone_bricks": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "infested_mossy_stone_bricks": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "infested_stone": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "infested_stone_bricks": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "jack_o'lantern": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "jukebox": {
+        "textures_name": {
+            "texture_top": "jukebox_top",
+            "texture_side": "jukebox_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "lodestone": {
+        "textures_name": {
+            "texture_side": "lodestone_side",
+            "texture_top": "lodestone_top"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "loom": {
+        "textures_name": {
+            "texture_front": "loom_front",
+            "texture_bottom": "loom_bottom",
+            "texture_top": "loom_top",
+            "texture_side": "loom_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "muddy_mangrove_roots": {
+        "textures_name": {
+            "texture_top": "muddy_mangrove_roots_top",
+            "texture_side": "muddy_mangrove_roots_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "note_block": {
+        "textures_name": {
+            "texture": "note_block"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "observer": {
+        "textures_name": {
+            "texture_side": "observer_side",
+            "texture_top": "observer_top",
+            "texture_back_on": "observer_back_on",
+            "texture_back": "observer_back",
+            "texture_front": "observer_front"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "piston": {
+        "textures_name": {
+            "texture_side": "piston_side",
+            "texture_inner": "piston_inner",
+            "texture_top": "piston_top",
+            "texture_bottom": "piston_bottom"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "respawn_anchor": {
+        "textures_name": {
+            "texture_side4": "respawn_anchor_side4",
+            "texture_side0": "respawn_anchor_side0",
+            "texture_bottom": "respawn_anchor_bottom",
+            "texture_top_off": "respawn_anchor_top_off",
+            "texture_side1": "respawn_anchor_side1",
+            "texture_side3": "respawn_anchor_side3",
+            "texture_side2": "respawn_anchor_side2",
+            "mcmeta": "respawn_anchor_top.mcmeta",
+            "texture_top": "respawn_anchor_top"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "sculk_catalyst": {
+        "textures_name": {
+            "texture_top": "sculk_catalyst_top",
+            "texture_bottom": "sculk_catalyst_bottom",
+            "texture_side": "sculk_catalyst_side",
+            "texture_side_bloom": "sculk_catalyst_side_bloom",
+            "mcmeta": "sculk_catalyst_side_bloom.mcmeta"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "sculk_shrieker": {
+        "textures_name": {
+            "texture_inner_top": "sculk_shrieker_inner_top",
+            "mcmeta1": "sculk_shrieker_can_summon_inner_top.mcmeta",
+            "texture_can_summon_inner_top": "sculk_shrieker_can_summon_inner_top",
+            "mcmeta": "sculk_shrieker_inner_top.mcmeta",
+            "texture_top": "sculk_shrieker_top",
+            "texture_bottom": "sculk_shrieker_bottom",
+            "texture_side": "sculk_shrieker_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "slime_block": {
+        "textures_name": {
+            "texture": "slime_block"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "smithing_table": {
+        "textures_name": {
+            "texture_side": "smithing_table_side",
+            "texture_top": "smithing_table_top",
+            "texture_bottom": "smithing_table_bottom",
+            "texture_front": "smithing_table_front"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "smoker": {
+        "textures_name": {
+            "texture_front": "smoker_front",
+            "texture_bottom": "smoker_bottom",
+            "texture_top": "smoker_top",
+            "mcmeta": "smoker_front_on.mcmeta",
+            "texture_front_on": "smoker_front_on",
+            "texture_side": "smoker_side"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "sponge": {
+        "textures_name": {
+            "texture": "sponge"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "sticky_piston": {
+        "textures_name": {},
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "tnt": {
+        "textures_name": {
+            "texture_top": "tnt_top",
+            "texture_side": "tnt_side",
+            "texture_bottom": "tnt_bottom"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    },
+    "wet_sponge": {
+        "textures_name": {
+            "texture": "wet_sponge"
+        },
+        "block_types": [
+            "experimental"
+        ]
+    }
+}

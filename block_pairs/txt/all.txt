@@ -1,0 +1,254 @@
+Acacia Leaves
+Acacia Log
+Acacia Wood
+Azelea Leaves
+Basalt
+Birch Leaves
+Birch Log
+Birch Wood
+Black Concrete
+Black Concrete Powder
+Black Glazed Terracotta
+Black Stained Glass
+Black Terracotta
+Black Wool
+Block of Amethyst
+Block of Coal
+Block of Copper
+Block of Gold
+Block of Iron
+Block of Lapis Lazuli
+Block of Raw Copper
+Block of Raw Gold
+Block of Raw Iron
+Block of Redstone
+Blue Concrete
+Blue Concrete Powder
+Blue Glazed Terracotta
+Blue Ice
+Blue Stained Glass
+Blue Terracotta
+Blue Wool
+Brain Coral Block
+Brown Concrete
+Brown Concrete Powder
+Brown Glazed Terracotta
+Brown Mushroom Block
+Brown Stained Glass
+Brown Terracotta
+Brown Wool
+Bubble Coral Block
+Chiseled Deepslate
+Chiseled Polished Blackstone
+Chiseled Quartz Block
+Chiseled Sandstone
+Chiseled Stone Bricks
+Chisseled Red Sandstone
+Clay
+Coal Ore
+Coarse Dirt
+Copper Ore
+Cracked Deepslate Bricks
+Cracked Deepslate Tiles
+Cracked Polished Blackstone Bricks
+Cracked Stone Bricks
+Crimson Hyphae
+Crimson Nylium
+Crimson Stem
+Crying Obsidian
+Cyan Concrete
+Cyan Concrete Powder
+Cyan Glazed Terracotta
+Cyan Stained Glass
+Cyan Terracotta
+Cyan Wool
+Dark Oak Leaves
+Dark Oak Log
+Dark Oak Wood
+Dead Brain Coral Block
+Dead Bubble Coral Block
+Dead Fire Coral Block
+Dead Horn Coral Block
+Dead Tube Coral Block
+Deepslate Coal Ore
+Deepslate Copper Ore
+Deepslate Diamond Ore
+Deepslate Emerald Ore
+Deepslate Gold Ore
+Deepslate Iron Ore
+Deepslate Lapis Lazuli Ore
+Deepslate Redstone Ore
+Deepslate Tiles
+Diamond Block
+Diamond Ore
+Dirt
+Dried Kelp Block
+Dripstone Block
+Emerald Block
+Emerald Ore
+End Stone
+Exposed Copper
+Fire Coral Block
+Flowering Azelea Leaves
+Gilded Blackstone
+Glass
+Glowstone
+Gold Ore
+Grass Block
+Gravel
+Gray Concrete
+Gray Concrete Powder
+Gray Glazed Terracotta
+Gray Stained Glass
+Gray Terracotta
+Gray Wool
+Green Concrete
+Green Concrete Powder
+Green Glazed Terracotta
+Green Stained Glass
+Green Terracotta
+Green Wool
+Hay Bele
+Honeycomb Block
+Horn Coral Block
+Ice
+Infested Deepslate
+Iron Ore
+Jungle Leaves
+Jungle Log
+Jungle Wood
+Lapis Lazuli Ore
+Light Blue Concrete
+Light Blue Concrete Powder
+Light Blue Glazed Terracotta
+Light Blue Stained Glass
+Light Blue Terracotta
+Light Blue Wool
+Light Gray Concrete
+Light Gray Concrete Powder
+Light Gray Glazed Terracotta
+Light Gray Stained Glass
+Light Gray Terracotta
+Light Gray Wool
+Lime Concrete
+Lime Concrete Powder
+Lime Glazed Terracotta
+Lime Stained Glass
+Lime Terracotta
+Lime Wool
+Magenta Concrete
+Magenta Concrete Powder
+Magenta Glazed Terracotta
+Magenta Stained Glass
+Magenta Terracotta
+Magenta Wool
+Magma Block
+Mangrove Leaves
+Mangrove Log
+Mangrove Roots
+Mangrove Wood
+Melon
+Moss Block
+Mud
+Mushroom Stem
+Mycelium
+Nether Quartz Ore
+Nether Wart Block
+Netherrack
+Oak Leaves
+Oak Log
+Oak Wood
+Obsidian
+Ochre Froglight
+Orange Concrete
+Orange Concrete Powder
+Orange Glazed Terracotta
+Orange Stained Glass
+Orange Terracotta
+Orange Wool
+Oxidized Copper
+Packed Ice
+Packed Mud
+Pearlescent Froglight
+Pink Concrete
+Pink Concrete Powder
+Pink Glazed Terracotta
+Pink Stained Glass
+Pink Terracotta
+Pink Wool
+Podzol
+Polished Basalt
+Pumpkin
+Purple Concrete
+Purple Concrete Powder
+Purple Glazed Terracotta
+Purple Stained Glass
+Purple Terracotta
+Purple Wool
+Purpur Pillar
+Quartz Pillar
+Red Concrete
+Red Concrete Powder
+Red Glazed Terracotta
+Red Mushroom Block
+Red Sand
+Red Stained Glass
+Red Terracotta
+Red Wool
+Redstone Lamp
+Redstone Ore
+Rooted Dirt
+Sand
+Sculk
+Sea Lantern
+Shroomlight
+Smooth Baslat
+Snow Block
+Soul Sand
+Soul Soil
+Spruce Leaves
+Spruce Log
+Spruce Wood
+Stripped Acacia Log
+Stripped Acacia Wood
+Stripped Birch Log
+Stripped Birch Wood
+Stripped Crimson Hyphae
+Stripped Crimson Nylium
+Stripped Dark Oak Log
+Stripped Dark Oak Wood
+Stripped Jungle Log
+Stripped Jungle Wood
+Stripped Mangrove Log
+Stripped Mangrove Wood
+Stripped Oak Log
+Stripped Oak Wood
+Stripped Spruce Log
+Stripped Spruce Wood
+Stripped Warped Hyphae
+Stripped Warped Stem
+Target
+Terracotta
+Tinted Glass
+Tube Coral Block
+Verdant Froglight
+Warped Hyphae
+Warped Nylium
+Warped Stem
+Waxed Block of Copper
+Waxed Exposed Copper
+Waxed Oxidized Copper
+Waxed Weathered Copper
+Weathered Copper
+White Concrete
+White Concrete Powder
+White Glazed Terracotta
+White Stained Glass
+White Terracotta
+White Wool
+Yellow Concrete
+Yellow Concrete Powder
+Yellow Glazed Terracotta
+Yellow Stained Glass
+Yellow Terracotta
+Yellow Wool

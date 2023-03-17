@@ -1,0 +1,136 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_WALL = createWall({self.name.upper()}, {self.tab})
+
+
+assets/models/block:
+    -> _wall_inventory.json:
+        {
+            "parent": "minecraft:block/wall_inventory",
+            "textures": {
+                "wall": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _wall_post.json:
+        {
+            "parent": "minecraft:block/template_wall_post",
+            "textures": {
+                "wall": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _wall_side.json:
+        {
+            "parent": "minecraft:block/template_wall_side",
+            "textures": {
+                "wall": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _wall_side_tall.json:
+        {
+            "parent": "minecraft:block/template_wall_side_tall",
+            "textures": {
+                "wall": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+
+assets/models/item:
+    -> _wall.json:
+        {
+            "parent": f"minecraft:block/{self.name}_wall_inventory"
+        }
+
+assets/blockstates:
+    -> _wall.json:
+        {
+            "multipart": [
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_post"
+                },
+                "when": {
+                    "up": "true"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side",
+                    "uvlock": true
+                },
+                "when": {
+                    "north": "low"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side",
+                    "uvlock": true,
+                    "y": 90
+                },
+                "when": {
+                    "east": "low"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side",
+                    "uvlock": true,
+                    "y": 180
+                },
+                "when": {
+                    "south": "low"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side",
+                    "uvlock": true,
+                    "y": 270
+                },
+                "when": {
+                    "west": "low"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side_tall",
+                    "uvlock": true
+                },
+                "when": {
+                    "north": "tall"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side_tall",
+                    "uvlock": true,
+                    "y": 90
+                },
+                "when": {
+                    "east": "tall"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side_tall",
+                    "uvlock": true,
+                    "y": 180
+                },
+                "when": {
+                    "south": "tall"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_wall_side_tall",
+                    "uvlock": true,
+                    "y": 270
+                },
+                "when": {
+                    "west": "tall"
+                }
+                }
+            ]
+        }

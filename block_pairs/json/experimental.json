@@ -1,0 +1,276 @@
+{
+    "barrel": {
+        "textures_name": {
+            "texture_top_open": "barrel_top_open",
+            "texture_side": "barrel_side",
+            "texture_bottom": "barrel_bottom",
+            "texture_top": "barrel_top"
+        }
+    },
+    "beacon": {
+        "textures_name": {
+            "texture": "beacon"
+        }
+    },
+    "bee_nest": {
+        "textures_name": {
+            "texture_top": "bee_nest_top",
+            "texture_front": "bee_nest_front",
+            "texture_side": "bee_nest_side",
+            "texture_bottom": "bee_nest_bottom",
+            "texture_front_honey": "bee_nest_front_honey"
+        }
+    },
+    "beehive": {
+        "textures_name": {
+            "texture_front_honey": "beehive_front_honey",
+            "texture_side": "beehive_side",
+            "texture_front": "beehive_front",
+            "texture_end": "beehive_end"
+        }
+    },
+    "blast_furnace": {
+        "textures_name": {
+            "texture_front": "blast_furnace_front",
+            "texture_side": "blast_furnace_side",
+            "mcmeta": "blast_furnace_front_on.mcmeta",
+            "texture_front_on": "blast_furnace_front_on",
+            "texture_top": "blast_furnace_top"
+        }
+    },
+    "cactus": {
+        "textures_name": {
+            "texture_side": "cactus_side",
+            "texture_top": "cactus_top",
+            "texture_bottom": "cactus_bottom"
+        }
+    },
+    "cartography_table": {
+        "textures_name": {
+            "texture_side1": "cartography_table_side1",
+            "texture_side33": "cartography_table_side3",
+            "texture_2": "cartography_table_side2",
+            "texture_top": "cartography_table_top"
+        }
+    },
+    "carved_pumpkin": {
+        "textures_name": {
+            "texture": "carved_pumpkin"
+        }
+    },
+    "cauldron": {
+        "textures_name": {
+            "texture_bottom": "cauldron_bottom",
+            "texture_inner": "cauldron_inner",
+            "texture_side": "cauldron_side",
+            "texture_top": "cauldron_top"
+        }
+    },
+    "composter": {
+        "textures_name": {
+            "texture_bottom": "composter_bottom",
+            "texture_ready": "composter_ready",
+            "texture_side": "composter_side",
+            "texture": "composter_compost",
+            "texture_top": "composter_top"
+        }
+    },
+    "crafting_table": {
+        "textures_name": {
+            "texture_top": "crafting_table_top",
+            "texture_front": "crafting_table_front",
+            "texture_side": "crafting_table_side"
+        }
+    },
+    "dirt_path": {
+        "textures_name": {
+            "texture_top": "dirt_path_top",
+            "texture_side": "dirt_path_side"
+        }
+    },
+    "dispenser": {
+        "textures_name": {
+            "texture_front_vertical": "dispenser_front_vertical",
+            "texture_front": "dispenser_front"
+        }
+    },
+    "dropper": {
+        "textures_name": {
+            "texture_vertical": "dropper_front_vertical",
+            "texture_front": "dropper_front"
+        }
+    },
+    "farmland": {
+        "textures_name": {
+            "texture": "farmland",
+            "texture_moist": "farmland_moist"
+        }
+    },
+    "fletching_table": {
+        "textures_name": {
+            "texture_top": "fletching_table_top",
+            "texture_side": "fletching_table_side",
+            "texture_front": "fletching_table_front"
+        }
+    },
+    "furnace": {
+        "textures_name": {
+            "texture_front_on": "furnace_front_on",
+            "texture_side": "furnace_side",
+            "texture_top": "furnace_top",
+            "texture_front": "furnace_front"
+        }
+    },
+    "honey_block": {
+        "textures_name": {
+            "texture_bottom": "honey_block_bottom",
+            "texture_top": "honey_block_top",
+            "texture_side": "honey_block_side"
+        }
+    },
+    "infested_chiseled_stone_bricks": {
+        "textures_name": {}
+    },
+    "infested_cobblestone": {
+        "textures_name": {}
+    },
+    "infested_cracked_stone_bricks": {
+        "textures_name": {}
+    },
+    "infested_mossy_stone_bricks": {
+        "textures_name": {}
+    },
+    "infested_stone": {
+        "textures_name": {}
+    },
+    "infested_stone_bricks": {
+        "textures_name": {}
+    },
+    "jack_o'lantern": {
+        "textures_name": {}
+    },
+    "jukebox": {
+        "textures_name": {
+            "texture_top": "jukebox_top",
+            "texture_side": "jukebox_side"
+        }
+    },
+    "lodestone": {
+        "textures_name": {
+            "texture_side": "lodestone_side",
+            "texture_top": "lodestone_top"
+        }
+    },
+    "loom": {
+        "textures_name": {
+            "texture_front": "loom_front",
+            "texture_bottom": "loom_bottom",
+            "texture_top": "loom_top",
+            "texture_side": "loom_side"
+        }
+    },
+    "muddy_mangrove_roots": {
+        "textures_name": {
+            "texture_top": "muddy_mangrove_roots_top",
+            "texture_side": "muddy_mangrove_roots_side"
+        }
+    },
+    "note_block": {
+        "textures_name": {
+            "texture": "note_block"
+        }
+    },
+    "observer": {
+        "textures_name": {
+            "texture_side": "observer_side",
+            "texture_top": "observer_top",
+            "texture_back_on": "observer_back_on",
+            "texture_back": "observer_back",
+            "texture_front": "observer_front"
+        }
+    },
+    "piston": {
+        "textures_name": {
+            "texture_side": "piston_side",
+            "texture_inner": "piston_inner",
+            "texture_top": "piston_top",
+            "texture_bottom": "piston_bottom"
+        }
+    },
+    "respawn_anchor": {
+        "textures_name": {
+            "texture_side4": "respawn_anchor_side4",
+            "texture_side0": "respawn_anchor_side0",
+            "texture_bottom": "respawn_anchor_bottom",
+            "texture_top_off": "respawn_anchor_top_off",
+            "texture_side1": "respawn_anchor_side1",
+            "texture_side3": "respawn_anchor_side3",
+            "texture_side2": "respawn_anchor_side2",
+            "mcmeta": "respawn_anchor_top.mcmeta",
+            "texture_top": "respawn_anchor_top"
+        }
+    },
+    "sculk_catalyst": {
+        "textures_name": {
+            "texture_top": "sculk_catalyst_top",
+            "texture_bottom": "sculk_catalyst_bottom",
+            "texture_side": "sculk_catalyst_side",
+            "texture_side_bloom": "sculk_catalyst_side_bloom",
+            "mcmeta": "sculk_catalyst_side_bloom.mcmeta"
+        }
+    },
+    "sculk_shrieker": {
+        "textures_name": {
+            "texture_inner_top": "sculk_shrieker_inner_top",
+            "mcmeta1": "sculk_shrieker_can_summon_inner_top.mcmeta",
+            "texture_can_summon_inner_top": "sculk_shrieker_can_summon_inner_top",
+            "mcmeta": "sculk_shrieker_inner_top.mcmeta",
+            "texture_top": "sculk_shrieker_top",
+            "texture_bottom": "sculk_shrieker_bottom",
+            "texture_side": "sculk_shrieker_side"
+        }
+    },
+    "slime_block": {
+        "textures_name": {
+            "texture": "slime_block"
+        }
+    },
+    "smithing_table": {
+        "textures_name": {
+            "texture_side": "smithing_table_side",
+            "texture_top": "smithing_table_top",
+            "texture_bottom": "smithing_table_bottom",
+            "texture_front": "smithing_table_front"
+        }
+    },
+    "smoker": {
+        "textures_name": {
+            "texture_front": "smoker_front",
+            "texture_bottom": "smoker_bottom",
+            "texture_top": "smoker_top",
+            "mcmeta": "smoker_front_on.mcmeta",
+            "texture_front_on": "smoker_front_on",
+            "texture_side": "smoker_side"
+        }
+    },
+    "sponge": {
+        "textures_name": {
+            "texture": "sponge"
+        }
+    },
+    "sticky_piston": {
+        "textures_name": {}
+    },
+    "tnt": {
+        "textures_name": {
+            "texture_top": "tnt_top",
+            "texture_side": "tnt_side",
+            "texture_bottom": "tnt_bottom"
+        }
+    },
+    "wet_sponge": {
+        "textures_name": {
+            "texture": "wet_sponge"
+        }
+    }
+}

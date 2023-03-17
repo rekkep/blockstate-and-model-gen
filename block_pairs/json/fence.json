@@ -1,0 +1,223 @@
+{
+    "andesite": {
+        "textures_name": {
+            "texture": "andesite"
+        }
+    },
+    "blackstone": {
+        "textures_name": {
+            "texture_top": "blackstone_top",
+            "texture": "blackstone"
+        }
+    },
+    "bricks": {
+        "textures_name": {
+            "texture": "bricks"
+        }
+    },
+    "cobbled_deepslate": {
+        "textures_name": {
+            "texture": "cobbled_deepslate"
+        }
+    },
+    "cobblestone": {
+        "textures_name": {
+            "texture": "cobblestone"
+        }
+    },
+    "deepslate_bricks": {
+        "textures_name": {
+            "texture": "deepslate_bricks"
+        }
+    },
+    "diorite": {
+        "textures_name": {
+            "texture": "diorite"
+        }
+    },
+    "end_stone_brick": {
+        "textures_name": {
+            "texture": "end_stone_bricks"
+        }
+    },
+    "granite": {
+        "textures_name": {
+            "texture": "granite"
+        }
+    },
+    "mossy_cobblestone": {
+        "textures_name": {
+            "texture": "mossy_cobblestone"
+        }
+    },
+    "mossy_stone_bricks": {
+        "textures_name": {
+            "texture": "mossy_stone_bricks"
+        }
+    },
+    "mud_bricks": {
+        "textures_name": {
+            "texture": "mud_bricks"
+        }
+    },
+    "polished_blackstone": {
+        "textures_name": {
+            "texture": "polished_blackstone"
+        }
+    },
+    "polished_blackstone_bricks": {
+        "textures_name": {
+            "texture": "polished_blackstone_bricks"
+        }
+    },
+    "polished_deepslate": {
+        "textures_name": {
+            "texture": "polished_deepslate"
+        }
+    },
+    "prismarine": {
+        "textures_name": {
+            "texture": "prismarine",
+            "mcmeta": "prismarine.mcmeta"
+        }
+    },
+    "red_nether_bricks": {
+        "textures_name": {
+            "texture": "red_nether_bricks"
+        }
+    },
+    "red_sandstone": {
+        "textures_name": {
+            "texture_top": "red_sandstone_top",
+            "texture_bottom": "red_sandstone_bottom",
+            "texture": "red_sandstone"
+        }
+    },
+    "sandstone": {
+        "textures_name": {
+            "texture": "sandstone",
+            "texture_bottom": "sandstone_bottom",
+            "texture_top": "sandstone_top"
+        }
+    },
+    "stone_bricks": {
+        "textures_name": {
+            "texture": "stone_bricks"
+        }
+    },
+    "block_of_quartz": {
+        "textures_name": {
+            "name": "quartz_block",
+            "texture_bottom": "quartz_block_bottom",
+            "texture_side": "quartz_block_side",
+            "texture_top": "quartz_block_top"
+        }
+    },
+    "cut_copper": {
+        "textures_name": {
+            "texture": "cut_copper"
+        }
+    },
+    "dark_prismarine": {
+        "textures_name": {
+            "texture": "dark_prismarine"
+        }
+    },
+    "exposed_cut_copper": {
+        "textures_name": {
+            "texture": "exposed_cut_copper"
+        }
+    },
+    "oxidized_cut_copper": {
+        "textures_name": {
+            "texture": "oxidized_cut_copper"
+        }
+    },
+    "polished_andesite": {
+        "textures_name": {
+            "texture": "polished_andesite"
+        }
+    },
+    "polished_diorite": {
+        "textures_name": {
+            "texture": "polished_diorite"
+        }
+    },
+    "polished_granite": {
+        "textures_name": {
+            "texture": "polished_granite"
+        }
+    },
+    "prismarine_bricks": {
+        "textures_name": {
+            "texture": "prismarine_bricks"
+        }
+    },
+    "purpur_block": {
+        "textures_name": {
+            "texture": "purpur_block"
+        }
+    },
+    "smooth_quartz_block": {
+        "textures_name": {
+            "name": "smooth_quartz",
+            "texture": "quartz_block_bottom"
+        }
+    },
+    "smooth_red_sandstone": {
+        "textures_name": {
+            "texture": "red_sandstone_bottom"
+        }
+    },
+    "smooth_sandstone": {
+        "textures_name": {
+            "texture": "sandstone_bottom"
+        }
+    },
+    "smooth_stone": {
+        "textures_name": {
+            "texture": "smooth_stone",
+            "texture_side": "smooth_stone_slab_side"
+        }
+    },
+    "stone": {
+        "textures_name": {
+            "texture": "stone"
+        }
+    },
+    "waxed_cut_copper": {
+        "textures_name": {
+            "texture": "cut_copper"
+        }
+    },
+    "waxed_exposed_cut_copper": {
+        "textures_name": {
+            "texture": "exposed_cut_copper"
+        }
+    },
+    "waxed_oxidized_cut_copper": {
+        "textures_name": {
+            "texture": "oxidized_cut_copper"
+        }
+    },
+    "waxed_weathered_cut_copper": {
+        "textures_name": {
+            "texture": "weathered_cut_copper"
+        }
+    },
+    "weathered_cut_copper": {
+        "textures_name": {
+            "texture": "weathered_cut_copper"
+        }
+    },
+    "cut_red_sandstone": {
+        "textures_name": {
+            "texture": "cut_red_sandstone"
+        }
+    },
+    "cut_sandstone": {
+        "textures_name": {
+            "texture": "cut_sandstone"
+        }
+    }
+}

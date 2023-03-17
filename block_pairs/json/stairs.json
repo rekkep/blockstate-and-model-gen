@@ -1,0 +1,12 @@
+{
+    "cut_red_sandstone": {
+        "textures_name": {
+            "texture": "cut_red_sandstone"
+        }
+    },
+    "cut_sandstone": {
+        "textures_name": {
+            "texture": "cut_sandstone"
+        }
+    }
+}

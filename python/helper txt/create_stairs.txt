@@ -1,0 +1,255 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_STAIRS = createStairs({self.name.upper()}, {self.tab})
+
+
+assets/models/block:
+    -> _stairs.json:
+        {
+            "parent": "minecraft:block/stairs",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}",
+                "side": f"{self.texture_mod_id}:block/{self.name}",
+                "top": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+    
+    -> _stairs_inner.json:
+        {
+            "parent": "minecraft:block/inner_stairs",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}",
+                "side": f"{self.texture_mod_id}:block/{self.name}",
+                "top": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _stairs_outer.json:
+        {
+            "parent": "minecraft:block/outer_stairs",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}",
+                "side": f"{self.texture_mod_id}:block/{self.name}",
+                "top": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+
+assets/models/item:
+    -> _stairs.json:
+        {
+            "parent": f"{self.mod_id}:block/{self.name}_stairs"
+        }
+
+
+assets/blockstates:
+    -> _stairs.json:
+        {
+            "variants": {
+                "facing=east,half=bottom,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "y": 270
+                },
+                "facing=east,half=bottom,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner"
+                },
+                "facing=east,half=bottom,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "y": 270
+                },
+                "facing=east,half=bottom,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer"
+                },
+                "facing=east,half=bottom,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs"
+                },
+                "facing=east,half=top,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180
+                },
+                "facing=east,half=top,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180,
+                "y": 90
+                },
+                "facing=east,half=top,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180
+                },
+                "facing=east,half=top,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180,
+                "y": 90
+                },
+                "facing=east,half=top,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs",
+                "uvlock": true,
+                "x": 180
+                },
+                "facing=north,half=bottom,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "y": 180
+                },
+                "facing=north,half=bottom,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "y": 270
+                },
+                "facing=north,half=bottom,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "y": 180
+                },
+                "facing=north,half=bottom,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "y": 270
+                },
+                "facing=north,half=bottom,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs",
+                "uvlock": true,
+                "y": 270
+                },
+                "facing=north,half=top,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180,
+                "y": 270
+                },
+                "facing=north,half=top,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180
+                },
+                "facing=north,half=top,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180,
+                "y": 270
+                },
+                "facing=north,half=top,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180
+                },
+                "facing=north,half=top,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs",
+                "uvlock": true,
+                "x": 180,
+                "y": 270
+                },
+                "facing=south,half=bottom,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner"
+                },
+                "facing=south,half=bottom,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "y": 90
+                },
+                "facing=south,half=bottom,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer"
+                },
+                "facing=south,half=bottom,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "y": 90
+                },
+                "facing=south,half=bottom,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs",
+                "uvlock": true,
+                "y": 90
+                },
+                "facing=south,half=top,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180,
+                "y": 90
+                },
+                "facing=south,half=top,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180,
+                "y": 180
+                },
+                "facing=south,half=top,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180,
+                "y": 90
+                },
+                "facing=south,half=top,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180,
+                "y": 180
+                },
+                "facing=south,half=top,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs",
+                "uvlock": true,
+                "x": 180,
+                "y": 90
+                },
+                "facing=west,half=bottom,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "y": 90
+                },
+                "facing=west,half=bottom,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "y": 180
+                },
+                "facing=west,half=bottom,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "y": 90
+                },
+                "facing=west,half=bottom,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "y": 180
+                },
+                "facing=west,half=bottom,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs",
+                "uvlock": true,
+                "y": 180
+                },
+                "facing=west,half=top,shape=inner_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180,
+                "y": 180
+                },
+                "facing=west,half=top,shape=inner_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_inner",
+                "uvlock": true,
+                "x": 180,
+                "y": 270
+                },
+                "facing=west,half=top,shape=outer_left": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180,
+                "y": 180
+                },
+                "facing=west,half=top,shape=outer_right": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs_outer",
+                "uvlock": true,
+                "x": 180,
+                "y": 270
+                },
+                "facing=west,half=top,shape=straight": {
+                "model": f"{self.mod_id}:block/{self.name}_stairs",
+                "uvlock": true,
+                "x": 180,
+                "y": 180
+                }
+            }
+        }
+

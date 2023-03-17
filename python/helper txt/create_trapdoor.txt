@@ -1,0 +1,108 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_TRAPDOOR = createTrapdoor({self.name.upper()}, {self.tab})
+
+
+assets/models/block:
+    -> _trapdoor_bottom.json:
+        {
+            "parent": "minecraft:block/template_orientable_trapdoor_bottom",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}_trapdoor"
+            }
+        }
+
+    -> _trapdoor_open.json:
+        {
+            "parent": "minecraft:block/template_orientable_trapdoor_open",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}_trapdoor"
+            }
+        }
+
+    -> _trapdoor_top.json:
+        {
+            "parent": "minecraft:block/template_orientable_trapdoor_top",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}_trapdoor"
+            }
+        }
+
+
+assets/models/item:
+    -> _trapdoor.json:
+        {
+            "parent": f"{self.mod_id}:block/{self.name}_trapdoor_bottom"
+        }
+
+
+assets/blockstates:
+    -> _trapdoor.json:
+        {
+            "variants": {
+                "facing=east,half=bottom,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_bottom",
+                "y": 90
+                },
+                "facing=east,half=bottom,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open",
+                "y": 90
+                },
+                "facing=east,half=top,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_top",
+                "y": 90
+                },
+                "facing=east,half=top,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open",
+                "x": 180,
+                "y": 270
+                },
+                "facing=north,half=bottom,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_bottom"
+                },
+                "facing=north,half=bottom,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open"
+                },
+                "facing=north,half=top,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_top"
+                },
+                "facing=north,half=top,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open",
+                "x": 180,
+                "y": 180
+                },
+                "facing=south,half=bottom,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_bottom",
+                "y": 180
+                },
+                "facing=south,half=bottom,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open",
+                "y": 180
+                },
+                "facing=south,half=top,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_top",
+                "y": 180
+                },
+                "facing=south,half=top,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open",
+                "x": 180,
+                "y": 0
+                },
+                "facing=west,half=bottom,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_bottom",
+                "y": 270
+                },
+                "facing=west,half=bottom,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open",
+                "y": 270
+                },
+                "facing=west,half=top,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_top",
+                "y": 270
+                },
+                "facing=west,half=top,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_trapdoor_open",
+                "x": 180,
+                "y": 90
+                }
+            }
+        }

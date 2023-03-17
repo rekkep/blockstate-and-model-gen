@@ -1,0 +1,43 @@
+Nether Bricks
+Andesite
+Blackstone
+Bricks
+Cobbled Deepslate
+Cobblestone
+Deepslate Bricks
+Diorite
+End Stone Brick
+Granite
+Mossy Cobblestone
+Mossy Stone Bricks
+Mud Bricks
+Polished Blackstone
+Polished Blackstone Bricks
+Polished Deepslate
+Prismarine
+Red Nether Bricks
+Red Sandstone
+Sandstone
+Stone Bricks
+Block of Quartz
+Cut Copper
+Dark Prismarine
+Exposed Cut Copper
+Oxidized Cut Copper
+Polished Andesite
+Polished Diorite
+Polished Granite
+Prismarine Bricks
+Purpur Block
+Smooth Quartz Block
+Smooth Red Sandstone
+Smooth Sandstone
+Smooth Stone
+Stone
+Waxed Cut Copper
+Waxed Exposed Cut Copper
+Waxed Oxidized Cut Copper
+Waxed Weathered Cut Copper
+Weathered Cut Copper
+Cut Red Sandstone
+Cut Sandstone

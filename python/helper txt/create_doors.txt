@@ -1,0 +1,214 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_DOOR = createDoor({self.name.upper()}, {self.tab});
+
+
+assets/models/block:
+    -> _door_bottom_left:
+        {
+            "parent": "minecraft:block/door_bottom_left",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+    -> _door_bottom_left_open.json:
+        {
+            "parent": "minecraft:block/door_bottom_left_open",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+    -> _door_bottom_right.json:
+        {
+            "parent": "minecraft:block/door_bottom_right",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+    -> _door_bottom_right_open.json:
+        {
+            "parent": "minecraft:block/door_bottom_right_open",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+    -> _door_top_left.json:
+        {
+            "parent": "minecraft:block/door_top_left",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+    -> _door_top_left_open.json:
+        {
+            "parent": "minecraft:block/door_top_left_open",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+    -> _door_top_right.json:
+        {
+            "parent": "minecraft:block/door_top_right",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+    -> _door_top_right_open.json:
+        {
+            "parent": "minecraft:block/door_top_right_open",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}_door_bottom",
+                "top": f"{self.texture_mod_id}:block/{self.name}_door_top"
+            }
+        }
+
+
+assets/models/item:
+    -> _door.json:
+        {
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": f"{self.mod_id}:item/{self.name}_door"
+            }
+        }
+
+
+asstes/blockstates:
+    -> _door.json:
+        {
+            "variants": {
+                "facing=east,half=lower,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left"
+                },
+                "facing=east,half=lower,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left_open",
+                "y": 90
+                },
+                "facing=east,half=lower,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right"
+                },
+                "facing=east,half=lower,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right_open",
+                "y": 270
+                },
+                "facing=east,half=upper,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left"
+                },
+                "facing=east,half=upper,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left_open",
+                "y": 90
+                },
+                "facing=east,half=upper,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right"
+                },
+                "facing=east,half=upper,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right_open",
+                "y": 270
+                },
+                "facing=north,half=lower,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left",
+                "y": 270
+                },
+                "facing=north,half=lower,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left_open"
+                },
+                "facing=north,half=lower,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right",
+                "y": 270
+                },
+                "facing=north,half=lower,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right_open",
+                "y": 180
+                },
+                "facing=north,half=upper,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left",
+                "y": 270
+                },
+                "facing=north,half=upper,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left_open"
+                },
+                "facing=north,half=upper,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right",
+                "y": 270
+                },
+                "facing=north,half=upper,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right_open",
+                "y": 180
+                },
+                "facing=south,half=lower,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left",
+                "y": 90
+                },
+                "facing=south,half=lower,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left_open",
+                "y": 180
+                },
+                "facing=south,half=lower,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right",
+                "y": 90
+                },
+                "facing=south,half=lower,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right_open"
+                },
+                "facing=south,half=upper,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left",
+                "y": 90
+                },
+                "facing=south,half=upper,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left_open",
+                "y": 180
+                },
+                "facing=south,half=upper,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right",
+                "y": 90
+                },
+                "facing=south,half=upper,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right_open"
+                },
+                "facing=west,half=lower,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left",
+                "y": 180
+                },
+                "facing=west,half=lower,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_left_open",
+                "y": 270
+                },
+                "facing=west,half=lower,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right",
+                "y": 180
+                },
+                "facing=west,half=lower,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_bottom_right_open",
+                "y": 90
+                },
+                "facing=west,half=upper,hinge=left,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left",
+                "y": 180
+                },
+                "facing=west,half=upper,hinge=left,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_left_open",
+                "y": 270
+                },
+                "facing=west,half=upper,hinge=right,open=false": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right",
+                "y": 180
+                },
+                "facing=west,half=upper,hinge=right,open=true": {
+                "model": f"{self.mod_id}:block/{self.name}_door_top_right_open",
+                "y": 90
+                }
+            }
+        }

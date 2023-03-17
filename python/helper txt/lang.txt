@@ -1,0 +1,9 @@
+assets/lan:
+    -> en_us:
+        {
+            "block.missingblocks.test_block": "Test Block"
+        }
+    -> de_de:
+        {
+            "block.missingblocks.test_block": "Test Block"
+        }

@@ -1,0 +1,43 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_SIGN = createSign({self.name.upper()}, {self.tab})
+
+
+assets/models/block:
+    -> _sign.json:
+        {
+            "textures": {
+                "particle": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+
+assets/models/item:
+    -> _sign.json:
+        {
+            "parent": "minecraft:item/generated",
+            "textures": {
+                "layer0": f"{self.mod_id}:item/{self.name}_sign"
+            }
+        }
+
+
+assets/blockstates:
+    -> _sign.json:
+        {
+            "variants": {
+                "": {
+                "model": f"{self.mod_id}:block/{self.name}_sign"
+                }
+            }
+        }
+
+    -> _wall_sign.json:
+        {
+            "variants": {
+                "": {
+                "model": f"{self.mod_id}:block/{self.name}_sign"
+                }
+            }
+        }
+
+        

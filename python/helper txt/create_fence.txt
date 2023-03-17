@@ -1,0 +1,85 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_FENCE = createFence({self.name.upper()}, {self.tab})
+
+assets/models/block:
+    -> _fence_inventory.json:
+        {
+            "parent": "minecraft:block/fence_inventory",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _fence_post.json:
+        {
+            "parent": "minecraft:block/fence_post",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+    -> _fence_side.json:
+        {
+            "parent": "minecraft:block/fence_side",
+            "textures": {
+                "texture": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+
+assets/models/item:
+    -> _fence.json:
+        {
+            "parent": f"{self.mod_id}:block/{self.name}_fence_inventory"
+        }
+
+assets/blockstates:
+    -> _fence.json:
+        {
+            "multipart": [
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_fence_post"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_fence_side",
+                    "uvlock": True
+                },
+                "when": {
+                    "north": "true"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_fence_side",
+                    "uvlock": True,
+                    "y": 90
+                },
+                "when": {
+                    "east": "true"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_fence_side",
+                    "uvlock": True,
+                    "y": 180
+                },
+                "when": {
+                    "south": "true"
+                }
+                },
+                {
+                "apply": {
+                    "model": f"{self.mod_id}:block/{self.name}_fence_side",
+                    "uvlock": True,
+                    "y": 270
+                },
+                "when": {
+                    "west": "true"
+                }
+                }
+            ]
+        }

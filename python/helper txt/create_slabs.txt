@@ -1,0 +1,46 @@
+ModBlocks:
+    public static final Block {self.name.upper().replace('_planks')}_SLAB = createSlab({self.name.upper()}, {self.tab})
+
+assets/models/block:
+    -> _slab.json:
+        {
+            "parent": "minecraft:block/slab",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}",
+                "side": f"{self.texture_mod_id}:block/{self.name}",
+                "top": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+    -> _slab_top.json:
+        {
+            "parent": "minecraft:block/slab_top",
+            "textures": {
+                "bottom": f"{self.texture_mod_id}:block/{self.name}",
+                "side": f"{self.texture_mod_id}:block/{self.name}",
+                "top": f"{self.texture_mod_id}:block/{self.name}"
+            }
+        }
+
+assets/models/items:
+    -> _slab.json:
+        {
+            "parent": f"{self.mod_id}:block/{self.name}_slab"
+        }
+
+assets/blockstates:
+    -> _slab.json:
+        {
+            "variants": {
+                "type=bottom": {
+                "model": f"{self.mod_id}:block/{self.name}_slab"
+                },
+                "type=double": {
+                "model": f"{self.mod_id}:block/{self.name}"
+                },
+                "type=top": {
+                "model": f"{self.mod_id}:block/{self.name}_slab_top"
+                }
+            }
+        }
+
+
