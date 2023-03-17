@@ -2,5 +2,5 @@
 generates the blockstates and models json files for a minecraft mod
 
 
-#Important
+# Important
 at the moment the documentations are non existing
