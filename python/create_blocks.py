@@ -37,11 +37,47 @@ class Blocks:
         
         if save_path != '':
             cf.change_file_path(save_path)
+            
+            
+            
+        self.LOOT_TABLE = {"type": "minecraft:block",
+                                "pools": [
+                                    {
+                                        "rolls": 1,
+                                        "entries": [
+                                            {
+                                                "type": "minecraft:item",
+                                                "name": f"{self.mod_id}:{self.name}"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
       
     def update_V1_19_2(self):
         
+        block_name = self.get_block_name().upper()
+        parent_name = block_name.replace(f'_{self.block_type}', '')
+        parent_name = parent_name.replace('LEAVE', 'LEAVES')
+        parent_name = parent_name.replace('BRICK', 'BRICKS')
+        parent_name = parent_name.replace('PLANK', 'PLANKS')
+        
+        self.LOOT_TABLE = {"type": "minecraft:block",
+                                "pools": [
+                                    {
+                                        "rolls": 1,
+                                        "entries": [
+                                            {
+                                                "type": "minecraft:item",
+                                                "name": f"{self.mod_id}:{block_name.lower()}"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+        
         return {
-            "MOD_BLOCKS_CODE": f"public static final Block {self.name.upper()}_{self.block_type.upper()} = create{self.block_variant.capitalize()}{''.join([i.capitalize() for i in self.block_type.split('_')])}({self.name.upper().replace('BRICK', 'BRICKS')}, {self.tab}{self.sign_type});",
+            "MOD_BLOCKS_CODE": f"public static final Block {block_name} = create{self.block_variant.capitalize()}{''.join([i.capitalize() for i in self.block_type.split('_')])}({parent_name}, {self.tab});",
             "BLOCK": {},
             "BUTTON": {
                 "BLOCK_BUTTON": {"parent": "minecraft:block/button",
@@ -172,7 +208,22 @@ class Blocks:
                         "x": 90,
                         "y": 270
                     }
-                }}
+                }},
+                "CRAFTING": {
+                            "type": "minecraft:crafting_shaped",
+                            "key": {
+                                "#": {
+                                    "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                }
+                            },
+                            "pattern": [
+                                "#"
+                            ],
+                            "result": {
+                                "item": f"{self.mod_id}:{block_name.lower()}",
+                                "count": 1
+                            }
+                            }
             },
             "DOOR": {
                 "BLOCK_DOOR_BOTTOM_LEFT": {"parent": "minecraft:block/door_bottom_left",
@@ -341,9 +392,46 @@ class Blocks:
                         "model": f"{self.mod_id}:block/{self.name}_door_top_right_open",
                         "y": 90
                     }
-                }}
+                }
+            },
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    }
+                                },
+                                "pattern": [
+                                    "##",
+                                    "##",
+                                    "##"
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 3
+                                }
+                            }
             },
             "FENCE_GATE": {
+                "CRAFTING":{
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    },
+                                    "_": {
+                                        "item": "minecraft:stick"
+                                    }
+                                },
+                                "pattern": [
+                                    "_#_",
+                                    "_#_"
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 1
+                                }
+                            },
                 "BLOCK_FENCE_GATE": {"parent": "minecraft:block/template_fence_gate",
                                      "textures": {
                                          "texture": f"{self.texture_mod_id}:block/{self.texture_name}"
@@ -441,6 +529,25 @@ class Blocks:
                 }},
             },
             "FENCE": {
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    },
+                                    "_": {
+                                        "item": "minecraft:stick"
+                                    }
+                                },
+                                "pattern": [
+                                    "#_#",
+                                    "#_#"
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 3
+                                }
+                            },
                 "BLOCK_FENCE_INVENTORY": {"parent": "minecraft:block/fence_inventory",
                                           "textures": {
                                               "texture": f"{self.texture_mod_id}:block/{self.texture_name}"
@@ -503,6 +610,21 @@ class Blocks:
 
             },
             "PRESSURE_PLATE": {
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    }
+                                },
+                                "pattern": [
+                                    "##"
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 1
+                                }
+                            },
                 "BLOCK_PRESSURE_PLATE": {"parent": "minecraft:block/pressure_plate_up",
                                          "textures": {
                                              "texture": f"{self.texture_mod_id}:block/{self.texture_name}"
@@ -523,6 +645,26 @@ class Blocks:
 
             },
             "SIGN": {
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    },
+                                    "_": {
+                                        "item": "minecraft:stick"
+                                    }
+                                },
+                                "pattern": [
+                                    "###",
+                                    "###",
+                                    " _ "
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 3
+                                }
+                            },
                 "BLOCK_SIGN": {"textures": {
                     "particle": f"{self.texture_mod_id}:block/{self.texture_name}"
                 }},
@@ -544,6 +686,21 @@ class Blocks:
                 }}             
                 },
             "SLAB": {
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    }
+                                },
+                                "pattern": [
+                                    "###"
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 6
+                                }
+                            },
                 "BLOCK_SLAB": {"parent": "minecraft:block/slab",
                                "textures": {
                                    "bottom": f"{self.texture_mod_id}:block/{self.texture_name}",
@@ -570,6 +727,23 @@ class Blocks:
                 }}
             },
             "STAIRS": {
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    }
+                                },
+                                "pattern": [
+                                    "#  ",
+                                    "## ",
+                                    "###"
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 1
+                                }
+                            },
                 "BLOCK_STAIRS": {"parent": "minecraft:block/stairs",
                                  "textures": {
                                      "bottom": f"{self.texture_mod_id}:block/{self.texture_bottom}",
@@ -798,6 +972,23 @@ class Blocks:
                                 }}
             },
             "TRAPDOOR": {
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    }
+                                },
+                                "pattern": [
+                                    "###",
+                                    "###",
+                                    "   "
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 2
+                                }
+                            },
                 "BLOCK_TRAPDOOR_BOTTOM": {"parent": "minecraft:block/template_orientable_trapdoor_bottom",
                                           "textures": {
                                               "texture": f"{self.texture_mod_id}:block/{self.texture_name}"#TODO:_trapdoor"
@@ -881,6 +1072,23 @@ class Blocks:
 
             },
             "WALL": {
+                "CRAFTING": {
+                                "type": "minecraft:crafting_shaped",
+                                "key": {
+                                    "#": {
+                                        "item": f"{self.texture_mod_id}:{parent_name.lower()}"
+                                    }
+                                },
+                                "pattern": [
+                                    "   ",
+                                    "###",
+                                    "###"
+                                ],
+                                "result": {
+                                    "item": f"{self.mod_id}:{block_name.lower()}",
+                                    "count": 6
+                                }
+                            },
                 "BLOCK_WALL_INVENTORY": {"parent": "minecraft:block/wall_inventory",
                                          "textures": {
                                              "wall": f"{self.texture_mod_id}:block/{self.texture_name}"
@@ -995,6 +1203,8 @@ class Blocks:
         self.block_type = "BUTTON"
         self.block_variant = button_type
         
+        self.tab = "MISSING_BUTTONS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1005,14 +1215,18 @@ class Blocks:
         BLOCK_BUTTON_PRESSED = self.V1_19_2[self.block_type]["BLOCK_BUTTON_PRESSED"]
         ITEM_BUTTON = self.V1_19_2[self.block_type]["ITEM_BUTTON"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
         
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(BLOCK_NAME, BLOCK_BUTTON)
         cf.add_models_block(f"{BLOCK_NAME}_inventory",
                             BLOCK_BUTTON_INVENTORY)
         cf.add_models_block(f"{BLOCK_NAME}_pressed", BLOCK_BUTTON_PRESSED)
         cf.add_models_item(BLOCK_NAME, ITEM_BUTTON)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
         
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1030,6 +1244,9 @@ class Blocks:
     
     def create_door(self):
         self.block_type = "DOOR"
+        
+        self.tab = "MISSING_DOORS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1045,8 +1262,9 @@ class Blocks:
         BLOCK_DOOR_TOP_RIGHT_OPEN = self.V1_19_2[self.block_type]["BLOCK_DOOR_TOP_RIGHT_OPEN"]
         ITEM_DOOR = self.V1_19_2[self.block_type]["ITEM_DOOR"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
         
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(f"{BLOCK_NAME}_bottom_left",BLOCK_DOOR_BOTTOM_LEFT)
         cf.add_models_block(f"{BLOCK_NAME}_bottom_left_open",BLOCK_DOOR_BOTTOM_LEFT_OPEN)
         cf.add_models_block(f"{BLOCK_NAME}_bottom_right", BLOCK_DOOR_BOTTOM_RIGHT)
@@ -1057,6 +1275,9 @@ class Blocks:
         cf.add_models_block(f"{BLOCK_NAME}_top_right_open", BLOCK_DOOR_TOP_RIGHT_OPEN)
         cf.add_models_item(BLOCK_NAME, ITEM_DOOR)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
 
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1064,6 +1285,9 @@ class Blocks:
     
     def create_fence_gate(self):
         self.block_type = "FENCE_GATE"
+        
+        self.tab = "MISSING_FENCE_GATES"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1075,8 +1299,9 @@ class Blocks:
         BLOCK_FENCE_GATE_WALL_OPEN = self.V1_19_2[self.block_type]["BLOCK_FENCE_GATE_WALL_OPEN"]
         ITEM_FENCE_GATE = self.V1_19_2[self.block_type]["ITEM_FENCE_GATE"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
         
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(f"{BLOCK_NAME}", BLOCK_FENCE_GATE)
         cf.add_models_block(f"{BLOCK_NAME}_open", BLOCK_FENCE_GATE_OPEN)
         cf.add_models_block(f"{BLOCK_NAME}_wall", BLOCK_FENCE_GATE_WALL)
@@ -1084,12 +1309,18 @@ class Blocks:
         cf.add_models_item(BLOCK_NAME, ITEM_FENCE_GATE)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
         
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
+        
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
     
     
     def create_fence(self):
         self.block_type = "FENCE"
+        
+        self.tab = "MISSING_FENCES"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1100,13 +1331,17 @@ class Blocks:
         BLOCK_FENCE_SIDE = self.V1_19_2[self.block_type]["BLOCK_FENCE_SIDE"]
         ITEM_FENCE = self.V1_19_2[self.block_type]["ITEM_FENCE"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
 
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(f"{BLOCK_NAME}_inventory", BLOCK_FENCE_INVENTORY)
         cf.add_models_block(f"{BLOCK_NAME}_post", BLOCK_FENCE_POST)
         cf.add_models_block(f"{BLOCK_NAME}_side", BLOCK_FENCE_SIDE)
         cf.add_models_item(BLOCK_NAME, ITEM_FENCE)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
 
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1115,6 +1350,9 @@ class Blocks:
     def create_pressure_plate(self, pressure_plate_type:str):
         self.block_type = "PRESSURE_PLATE"
         self.block_variant = pressure_plate_type
+        
+        self.tab = "MISSING_PRESSURE_PLATES"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1124,12 +1362,16 @@ class Blocks:
         BLOCK_PRESSURE_PLATE_DOWN = self.V1_19_2[self.block_type]["BLOCK_PRESSURE_PLATE_DOWN"]
         ITEM_PRESSURE_PLATE = self.V1_19_2[self.block_type]["ITEM_PRESSURE_PLATE"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
 
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(f"{BLOCK_NAME}", BLOCK_PRESSURE_PLATE)
         cf.add_models_block(f"{BLOCK_NAME}_down", BLOCK_PRESSURE_PLATE_DOWN)
         cf.add_models_item(BLOCK_NAME, ITEM_PRESSURE_PLATE)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
 
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1148,6 +1390,9 @@ class Blocks:
     def create_sign(self, sign_type):
         self.block_type = "SIGN"
         self.sign_type = ", " + sign_type
+        
+        self.tab = "MISSING_SIGNS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1156,13 +1401,16 @@ class Blocks:
         BLOCK_SIGN = self.V1_19_2[self.block_type]["BLOCK_SIGN"]
         ITEM_SIGN = self.V1_19_2[self.block_type]["ITEM_SIGN"]
         BLOCKSTATES_SIGN = self.V1_19_2[self.block_type]["BLOCKSTATES_SIGN"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
         
 
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(BLOCK_NAME, BLOCK_SIGN)
         cf.add_models_item(BLOCK_NAME, ITEM_SIGN)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES_SIGN)
         
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
 
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1172,6 +1420,9 @@ class Blocks:
     
     def create_wall_sign(self):
         self.block_type = "WALL_SIGN"
+        
+        self.tab = "MISSING_SIGNS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1185,6 +1436,9 @@ class Blocks:
        
     def create_slab(self):
         self.block_type = "SLAB"
+        
+        self.tab = "MISSING_SLABS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1194,12 +1448,16 @@ class Blocks:
         BLOCK_SLAB_TOP = self.V1_19_2[self.block_type]["BLOCK_SLAB_TOP"]
         ITEM_SLAB = self.V1_19_2[self.block_type]["ITEM_SLAB"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
         
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(BLOCK_NAME, BLOCK_SLAB)
         cf.add_models_block(f"{BLOCK_NAME}_top", BLOCK_SLAB_TOP)
         cf.add_models_item(BLOCK_NAME, ITEM_SLAB)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
         
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1207,6 +1465,9 @@ class Blocks:
  
     def create_stairs(self):
         self.block_type = "STAIRS"
+        
+        self.tab = "MISSING_STAIRS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1217,13 +1478,17 @@ class Blocks:
         BLOCK_STAIRS_INNER = self.V1_19_2[self.block_type]["BLOCK_STAIRS_INNER"]
         ITEM_STAIRS = self.V1_19_2[self.block_type]["ITEM_STAIRS"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
         
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(BLOCK_NAME, BLOCK_STAIRS)
         cf.add_models_block(f"{BLOCK_NAME}_outer", BLOCK_STAIRS_OUTER)
         cf.add_models_block(f"{BLOCK_NAME}_inner", BLOCK_STAIRS_INNER)
         cf.add_models_item(BLOCK_NAME, ITEM_STAIRS)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
         
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1231,6 +1496,9 @@ class Blocks:
         
     def create_trapdoor(self):
         self.block_type = "TRAPDOOR"
+        
+        self.tab = "MISSING_TRAPDOORS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1241,13 +1509,17 @@ class Blocks:
         BLOCK_TRAPDOOR_TOP = self.V1_19_2[self.block_type]["BLOCK_TRAPDOOR_TOP"]
         ITEM_TRAPDOOR = self.V1_19_2[self.block_type]["ITEM_TRAPDOOR"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
 
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(f"{BLOCK_NAME}_bottom", BLOCK_TRAPDOOR_BOTTOM)
         cf.add_models_block(f"{BLOCK_NAME}_open", BLOCK_TRAPDOOR_OPEN)
         cf.add_models_block(f"{BLOCK_NAME}_top", BLOCK_TRAPDOOR_TOP)
         cf.add_models_item(BLOCK_NAME, ITEM_TRAPDOOR)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
 
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1255,6 +1527,9 @@ class Blocks:
 
     def create_wall(self):
         self.block_type = "WALL"
+        
+        self.tab = "MISSING_WALLS"
+        
         BLOCK_NAME = self.get_block_name()
 
         self.V1_19_2 = self.update_V1_19_2()
@@ -1266,14 +1541,18 @@ class Blocks:
         BLOCK_WALL_SIDE_TALL = self.V1_19_2[self.block_type]["BLOCK_WALL_SIDE_TALL"]
         ITEM_WALL = self.V1_19_2[self.block_type]["ITEM_WALL"]
         BLOCKSTATES = self.V1_19_2[self.block_type]["BLOCKSTATES"]
+        CRAFTING = self.V1_19_2[self.block_type]["CRAFTING"]
 
-        cf.add_mod_blocks(f"{BLOCK_NAME}_bottom_left", MOD_BLOCKS_CODE, self.block_type)
+        cf.add_mod_blocks(f"{BLOCK_NAME}", MOD_BLOCKS_CODE, self.block_type)
         cf.add_models_block(f"{BLOCK_NAME}_inventory", BLOCK_WALL_INVENTORY)
         cf.add_models_block(f"{BLOCK_NAME}_post", BLOCK_WALL_POST)
         cf.add_models_block(f"{BLOCK_NAME}_side", BLOCK_WALL_SIDE)
         cf.add_models_block(f"{BLOCK_NAME}_side_tall", BLOCK_WALL_SIDE_TALL)
         cf.add_models_item(BLOCK_NAME, ITEM_WALL)
         cf.add_blockstates(BLOCK_NAME, BLOCKSTATES)
+        
+        cf.add_crafting_recipe(BLOCK_NAME, CRAFTING)
+        cf.add_loot_table(BLOCK_NAME, self.LOOT_TABLE)
 
         cf.add_lang(f"block.{self.mod_id}.{BLOCK_NAME}",
                     ' '.join([i.capitalize() for i in BLOCK_NAME.split('_')]))
@@ -1283,7 +1562,8 @@ class Blocks:
     def get_block_name(self):
         name = self.name.capitalize()
         
-        if self.name[-1] == 's' and self.name.find('Glass') == -1:
+        if self.name[-1] == 's' and self.name.upper().find('GLASS') == -1 \
+            and self.name.upper().find('TILES') == -1 and self.name.upper().find('ROOTS') == -1:
             name = self.name = self.name[0:-1].lower()
     
         return name + '_' + self.block_type

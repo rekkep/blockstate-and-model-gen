@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        " _ "
+    ],
+    "key": {
+        "#": {
+            "item": f"{self.texture_mod_id}:{parent_name}"
+        },
+        "_": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": f"{self.mod_id}:{self.name}",
+        "count": "3"
+    }
+}
